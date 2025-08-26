@@ -1,4 +1,3 @@
-import "./App.css";
 
 function App() {
   return (
@@ -27,7 +26,7 @@ function App() {
           <div className="mt-8">
             <h2 className="text-lg font-semibold text-gray-700">📍 Location</h2>
             <p className="text-sm text-gray-600">
-              6 أكتوبر - ليلة القدر - مول مكة
+             6 أكتوبر - ليلة القدر - مول مكة
             </p>
             <a
               href="https://maps.google.com/?q=29.948896%2C30.905266"
