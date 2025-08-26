@@ -22,11 +22,12 @@ function App() {
               Instagram: @arafa_access
             </a>
           </div>
+
           {/* Location */}
           <div className="mt-8">
             <h2 className="text-lg font-semibold text-gray-700">📍 Location</h2>
             <p className="text-sm text-gray-600">
-             6 أكتوبر - ليلة القدر - مول مكة
+              <span dir="rtl">6 أكتوبر - ليلة القدر - مول مكة</span>
             </p>
             <a
               href="https://maps.google.com/?q=29.948896%2C30.905266"
@@ -44,18 +45,40 @@ function App() {
               📞 Contact Numbers
             </h2>
             <div className="flex flex-col mt-2 space-y-1">
-              <a
-                href="tel:01022427598"
-                className="text-blue-600 hover:underline"
-              >
-                01022427598
-              </a>
-              <a
-                href="tel:01555960853"
-                className="text-blue-600 hover:underline"
-              >
-                01555960853
-              </a>
+              <div>
+                <a
+                  href="tel:01022427598"
+                  className="text-blue-600 hover:underline"
+                >
+                  01022427598
+                </a>
+                <span className="mx-2">|</span>
+                <a
+                  href="https://wa.me/201022427598"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:underline"
+                >
+                  WhatsApp
+                </a>
+              </div>
+              <div>
+                <a
+                  href="tel:01555960853"
+                  className="text-blue-600 hover:underline"
+                >
+                  01555960853
+                </a>
+                <span className="mx-2">|</span>
+                <a
+                  href="https://wa.me/201555960853"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:underline"
+                >
+                  WhatsApp
+                </a>
+              </div>
             </div>
           </div>
 
@@ -64,7 +87,7 @@ function App() {
             <h2 className="text-lg font-semibold text-gray-700">
               🔒 Private Contact
             </h2>
-            <p className="text-gray-600">@abdalr7man309</p>
+            <p className="text-gray-600">instagram: @abdalr7man309</p>
           </div>
         </div>
       </div>
